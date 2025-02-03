@@ -1,0 +1,24 @@
+.user-profile {
+    display: flex;
+    padding-top: 20px;
+   
+}
+
+.user-pic img{
+    border-radius: 100px;
+    height: 50px;
+    padding: 5px;
+    width: 50px;
+} 
+
+.user-pic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-name {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}

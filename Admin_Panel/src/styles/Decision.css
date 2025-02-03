@@ -1,0 +1,15 @@
+.decision .item {
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+.decision {
+    display: flex;
+    gap: 20px;
+    text-decoration-line:none;
+}
+
+.decision .item:hover {
+    text-decoration: underline;
+}
