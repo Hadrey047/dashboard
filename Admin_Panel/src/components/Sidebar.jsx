@@ -30,6 +30,18 @@ const Sidebar = () => {
                     <BiShield className='icon'/>
                     Shipments 
                 </a>
+                <a href='#' className='item'>
+                    <BiShield className='icon'/>
+                    Wallet 
+                </a>
+                <a href='#' className='item'>
+                    <BiShield className='icon'/>
+                    Transactions 
+                </a>
+                <a href='#' className='item'>
+                    <BiShield className='icon'/>
+                    Shipping Quote 
+                </a>
             </div>
 
             <div className='menu--list'>

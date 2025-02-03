@@ -1,3 +1,38 @@
+.session {
+    width:100%
+    display:flex;
+}
+
 .session-header-1 {
     display:flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+.session-header-2 {
+    display: flex;
+    gap: 15%;
+}
+
+.item {
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    justify-content:space-between;
+    align-items: center;
+    padding-top:20px;
+}
+.session-header-1-right button {
+    padding:10px;
+    border-radius:10px;
+    background-color: #0C0F5C;
+    color: white;
+
+}
+
+.session-container {
+    width:100%;
 }
