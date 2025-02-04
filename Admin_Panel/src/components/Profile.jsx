@@ -1,11 +1,14 @@
 import React from 'react';
-import {BiEdit} from 'react-icons/bi'
+import peppermint from '../Images/peppermint.jpeg'
+import { GoBell } from "react-icons/go";
+import '../styles/Profile.css'
 
 
 const Profile = () => {
     return (
         <div className='profile'>
-            <BiEdit className='edit' />
+            <span><GoBell /></span>
+            <img src={peppermint} />
         </div>
     );
 }

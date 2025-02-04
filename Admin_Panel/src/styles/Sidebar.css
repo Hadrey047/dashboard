@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     gap: 2.3rem;
-    height: 94vh;
+    height: 100%;
 }
 .logo {
     text-align: center;
     padding: 20px;
-    color: yellow;
+    color: white;
     align-items: center;
     display: flex;
     gap: 10px;
@@ -32,4 +32,68 @@
 
 .icon {
     padding-left: 20px;
+    padding-right: 18px;
+    font-size: 22px;
+    color: #EAAA08;
+    align-items: center;
+}
+
+.dash {
+    display: flex;
+    align-items: center;
+}
+
+.dash li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+/* .dash ul{
+    display: flex;
+    flex-direction: column;
+} */
+
+.but {
+    color: white;
+    background-color:#0B0E54;
+    padding: auto;
+    align-items: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.arrow {
+    padding-left: 20px;
+    margin-left: auto;
+    color: #EAAA08;
+}
+.side-pic {
+    display: flex;
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+
+.side-pic img{
+    border-radius: 100px;
+    height: 40px;
+    padding: 5px;
+    width: 40px;
+}
+
+.but:hover {
+    color: #0B0E54;
+    padding: 10px;
+    background-color: #EAAA08;
+}
+
+.but.icon:hover {
+    color: #EAAA08;
+}
+
+.but.arrow:hover {
+    color: #0B0E54;
 }
